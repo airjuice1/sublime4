@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+delimiter //
+drop procedure if exists `sp_$1`//
+create procedure `sp_$1` ()
+begin
+
+-- declare done tinyint unsigned;
+-- declare res1 int unsigned;
+-- declare cur1 cursor for 
+-- declare continue handler for not found set done = 0;
+
+-- set done = 1;
+
+-- open cur1;
+
+-- while done = 1 do
+	-- if done = 1 then
+		-- fetch cur1 into res1;
+	-- end if;
+-- end while;
+
+-- close cur1;
+
+end//
+-- call sp_$1()//
+delimiter ;
+
+-- call sp_$1();
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sqlsp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

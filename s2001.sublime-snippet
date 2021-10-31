@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+const $1 = (test = 'test') => {
+
+	resolve = response => {    
+	}
+	
+	reject = error => {
+	    console.log(error);
+	}
+
+	const url = '$3';
+	const body = new FormData();
+	body.append('test', test);
+	const param = {
+	    method: "post",
+	    body
+	}
+	fetch(url, param).then(response => response.json()).then(resolve).catch(reject);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsfet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+-- ====================================================
+DROP TABLE IF EXISTS `$1s`;
+CREATE TABLE `$1s`
+(
+	`$1_id`
+	INT UNSIGNED
+	NOT NULL
+	AUTO_INCREMENT
+	COMMENT '',
+	
+	-- CONSTRAINT ix UNIQUE KEY(``),
+	-- INDEX ixName (``),
+
+	-- INDEX ixNameForFK(``) -- MUST BE FOR FK!
+	-- CONSTRAINT fk FOREIGN KEY(`col_name`) REFFERENCE `table_name`(`col_name`),
+
+
+	CONSTRAINT pkId PRIMARY KEY(`$1_id`)
+)
+ENGINE = 'INNODB',
+COMMENT = '';
+-- ====================================================
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sqlt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

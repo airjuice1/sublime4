@@ -1,0 +1,11 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Package Control",
+		"SFTP",
+	],
+	"in_process_packages":
+	[
+	],
+}
