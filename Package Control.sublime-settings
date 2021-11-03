@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
+		"Emmet",
 		"Package Control",
 		"SFTP",
 		"Terminal",
