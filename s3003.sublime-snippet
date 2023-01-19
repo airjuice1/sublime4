@@ -10,6 +10,10 @@ begin
 -- declare cur1 cursor for 
 -- declare continue handler for not found set done = 0;
 
+-- declare exit handler for 1062
+-- begin
+-- end;
+
 -- set done = 1;
 
 -- open cur1;
