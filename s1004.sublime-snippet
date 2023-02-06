@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-// global $db;
+// global \$db;
 // \$result = false;
 
 \$stmt = \$db->prepare('');
