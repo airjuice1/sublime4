@@ -1,18 +1,18 @@
 <snippet>
 	<content><![CDATA[
 // global $db;
-// $result = false;
+// \$result = false;
 
-$stmt = $db->prepare('');
-// $stmt->bind_param('i', $var_int);
-$stmt->execute();
-$result = $stmt->get_result()->fetch_object();
-$stmt->close();
+\$stmt = \$db->prepare('');
+// \$stmt->bind_param('i', \$var_int);
+\$stmt->execute();
+\$result = \$stmt->get_result()->fetch_object();
+\$stmt->close();
 
-// return $result;
+// return \$result;
 
 // echo '<pre>';
-// print_r($result);
+// print_r(\$result);
 // echo '</pre>';
 // exit();
 

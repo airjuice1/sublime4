@@ -4,8 +4,8 @@ mysqli_report(MYSQLI_REPORT_STRICT | MYSQLI_REPORT_ALL);
 
 try 
 {
-	$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_BASE);
-} catch (mysqli_sql_exception $e) {}
+	\$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_BASE);
+} catch (mysqli_sql_exception \$e) {}
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
