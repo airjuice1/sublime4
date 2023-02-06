@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+mysqli_report(MYSQLI_REPORT_STRICT | MYSQLI_REPORT_ALL);
+
+try 
+{
+	$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_BASE);
+} catch (mysqli_sql_exception $e) {}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>phpmysqlicon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+// global $db;
+// $result = false;
+
+$stmt = $db->prepare('');
+// $stmt->bind_param('i', $var_int);
+$stmt->execute();
+$result = $stmt->get_result()->fetch_object();
+$stmt->close();
+
+// return $result;
+
+// echo '<pre>';
+// print_r($result);
+// echo '</pre>';
+// exit();
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>phpprepare</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
