@@ -4,9 +4,14 @@
 // \$result = false;
 
 \$stmt = \$db->prepare('');
-// \$stmt->bind_param('i', \$var_int);
-\$stmt->execute();
-\$result = \$stmt->get_result()->fetch_object();
+\\ // \$stmt->bind_param('i', \$var_int);
+\\ \$stmt->execute();
+\\ \$result = \$stmt->get_result()->fetch_object();
+
+\\ try {
+\\    \$stmt->execute();
+\\ } catch (mysqli_sql_exception \$e) {}
+
 \$stmt->close();
 
 // return \$result;
