@@ -1,5 +1,11 @@
 {
-	"bootstrapped": true,	
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Package Control",
+		"Terminus",
+		"Emmet",
+	],
 	"in_process_packages":
 	[
 	],
