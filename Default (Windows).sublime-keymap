@@ -1,11 +1,14 @@
 [
     { 
-        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", 
+        "args": {
             "cwd": "${file_path:${folder}}"
         },        
-        "keys": ["ctrl+b"], "command": "toggle_side_bar"
     },
     {
         "keys": ["alt+`"], "command": "toggle_terminus_panel",
+    },
+    {
+        "keys": ["ctrl+b"], "command": "toggle_side_bar"
     }
 ]
