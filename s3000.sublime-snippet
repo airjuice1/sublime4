@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 DROP DATABASE IF EXISTS `$1`;
-CREATE DATABASE `$1` CHARSET utf8mb4 COLLATE utf8mb4_general_ci;
+-- CREATE DATABASE `$1` CHARSET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE `$1` CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 USE `$1`;
 
